@@ -35,8 +35,6 @@ h2{
   width: 300px;
   height: 200px; 
 }
-.main-text{
-}
 li{
   color: white;
 }
@@ -54,6 +52,27 @@ footer{
 
 /* レスポンシブル対応 */
 @media (max-width: 600px) {
+  h1{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 30px;
+  }
+  .container{
+    flex-direction: column;
+  }
+  .main,.side{
+    width: 100%;
+  }
+}
+@media (max-width: 770px) {
+  h1{
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 30px;
+    color: #d3d0eb75;
+  }
   .container{
     flex-direction: column;
   }
