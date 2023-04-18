@@ -43,7 +43,7 @@ function App() {
               Hi! <br />
               Im,Sugi-Osan
               <br />
-              52 years old
+             <samp className=" text-red-500">52</samp>  years old
             </h1>
             <p className="my-2">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. A id
